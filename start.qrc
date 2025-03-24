@@ -1,0 +1,158 @@
+<RCC>
+    <qresource prefix="/startscene">
+        <file>build/map.png</file>
+    </qresource>
+    <qresource prefix="/sounds"/>
+    <qresource prefix="/player1">
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_000.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_001.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_002.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_003.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_004.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_005.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_006.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_007.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_008.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_009.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_010.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_011.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_012.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_013.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_014.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_015.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_016.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Taunt/Wraith_03_Taunt_017.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_000.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_001.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_002.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_003.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_004.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_005.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_006.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_007.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_008.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_009.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_010.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Hurt/Wraith_03_Hurt_011.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_000.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_001.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_002.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_003.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_004.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_005.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_006.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_007.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_008.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_009.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_010.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_011.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_012.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_013.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Dying/Wraith_03_Dying_014.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_000.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_001.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_002.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_003.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_004.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_005.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_006.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_007.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_008.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_009.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_010.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Idle Blink/Wraith_03_Idle Blinking_011.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_000.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_001.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_002.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_003.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_004.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_005.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_006.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_007.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_008.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_009.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_010.png</file>
+        <file>build/PNG/Wraith_03/PNG Sequences/Casting Spells/Wraith_03_Attack_011.png</file>
+    </qresource>
+    <qresource prefix="/enemy">
+        <file>build/Slime/parts/Walk (jump)/large (1).png</file>
+        <file>build/Slime/parts/Walk (jump)/large (2).png</file>
+        <file>build/Slime/parts/Walk (jump)/large (3).png</file>
+        <file>build/Slime/parts/Walk (jump)/large (4).png</file>
+        <file>build/Slime/parts/Walk (jump)/large (5).png</file>
+        <file>build/Slime/parts/Walk (jump)/medium (1).png</file>
+        <file>build/Slime/parts/Walk (jump)/medium (2).png</file>
+        <file>build/Slime/parts/Walk (jump)/medium (3).png</file>
+        <file>build/Slime/parts/Walk (jump)/medium (4).png</file>
+        <file>build/Slime/parts/Walk (jump)/medium (5).png</file>
+        <file>build/Slime/parts/Walk (jump)/Mini (1).png</file>
+        <file>build/Slime/parts/Walk (jump)/Mini (2).png</file>
+        <file>build/Slime/parts/Walk (jump)/Mini (3).png</file>
+        <file>build/Slime/parts/Walk (jump)/Mini (4).png</file>
+        <file>build/Slime/parts/Walk (jump)/Mini (5).png</file>
+        <file>build/Slime/parts/attacks/Large (1).png</file>
+        <file>build/Slime/parts/attacks/Large (2).png</file>
+        <file>build/Slime/parts/attacks/Large (3).png</file>
+        <file>build/Slime/parts/attacks/Large (4).png</file>
+        <file>build/Slime/parts/attacks/Large (5).png</file>
+        <file>build/Slime/parts/attacks/Large (6).png</file>
+        <file>build/Slime/parts/attacks/Large (7).png</file>
+        <file>build/Slime/parts/attacks/Large (8).png</file>
+        <file>build/Slime/parts/attacks/Medium (1).png</file>
+        <file>build/Slime/parts/attacks/Medium (2).png</file>
+        <file>build/Slime/parts/attacks/Medium (3).png</file>
+        <file>build/Slime/parts/attacks/Medium (4).png</file>
+        <file>build/Slime/parts/attacks/Medium (5).png</file>
+        <file>build/Slime/parts/attacks/Medium (6).png</file>
+        <file>build/Slime/parts/attacks/Medium (7).png</file>
+        <file>build/Slime/parts/attacks/Medium (8).png</file>
+        <file>build/Slime/parts/attacks/mini (1).png</file>
+        <file>build/Slime/parts/attacks/mini (2).png</file>
+        <file>build/Slime/parts/attacks/mini (3).png</file>
+        <file>build/Slime/parts/attacks/mini (4).png</file>
+        <file>build/Slime/parts/attacks/mini (5).png</file>
+        <file>build/Slime/parts/attacks/mini (6).png</file>
+        <file>build/Slime/parts/attacks/mini (7).png</file>
+        <file>build/Slime/parts/attacks/mini (8).png</file>
+        <file>build/Slime/parts/Damage and death/large (1).png</file>
+        <file>build/Slime/parts/Damage and death/large (2).png</file>
+        <file>build/Slime/parts/Damage and death/large (3).png</file>
+        <file>build/Slime/parts/Damage and death/large (4).png</file>
+        <file>build/Slime/parts/Damage and death/large (5).png</file>
+        <file>build/Slime/parts/Damage and death/large (6).png</file>
+        <file>build/Slime/parts/Damage and death/large (7).png</file>
+        <file>build/Slime/parts/Damage and death/large (8).png</file>
+        <file>build/Slime/parts/Damage and death/large (9).png</file>
+        <file>build/Slime/parts/Damage and death/large (10).png</file>
+        <file>build/Slime/parts/Damage and death/medium (1).png</file>
+        <file>build/Slime/parts/Damage and death/medium (2).png</file>
+        <file>build/Slime/parts/Damage and death/medium (3).png</file>
+        <file>build/Slime/parts/Damage and death/medium (4).png</file>
+        <file>build/Slime/parts/Damage and death/medium (5).png</file>
+        <file>build/Slime/parts/Damage and death/medium (6).png</file>
+        <file>build/Slime/parts/Damage and death/medium (7).png</file>
+        <file>build/Slime/parts/Damage and death/medium (8).png</file>
+        <file>build/Slime/parts/Damage and death/medium (9).png</file>
+        <file>build/Slime/parts/Damage and death/medium (10).png</file>
+        <file>build/Slime/parts/Damage and death/medium (11).png</file>
+        <file>build/Slime/parts/Damage and death/medium (12).png</file>
+        <file>build/Slime/parts/Damage and death/medium (13).png</file>
+        <file>build/Slime/parts/Damage and death/medium (14).png</file>
+        <file>build/Slime/parts/Damage and death/medium (15).png</file>
+        <file>build/Slime/parts/Damage and death/mini (1).png</file>
+        <file>build/Slime/parts/Damage and death/mini (2).png</file>
+        <file>build/Slime/parts/Damage and death/mini (3).png</file>
+        <file>build/Slime/parts/Damage and death/mini (4).png</file>
+        <file>build/Slime/parts/Damage and death/mini (5).png</file>
+    </qresource>
+    <qresource prefix="/bullet">
+        <file>build/bullet/explosion/B500-2.png</file>
+        <file>build/bullet/explosion/B500-3.png</file>
+        <file>build/bullet/explosion/B500-4.png</file>
+        <file>build/bullet/move/FB500-1.png</file>
+        <file>build/bullet/move/FB500-2.png</file>
+        <file>build/bullet/move/FB500-3.png</file>
+        <file>build/bullet/move/FB500-4.png</file>
+        <file>build/bullet/move/FB500-5.png</file>
+    </qresource>
+</RCC>
