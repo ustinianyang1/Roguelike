@@ -1,10 +1,12 @@
 debug/bullet.o
+debug/customgraphicsview.o
 debug/enemy.o
 debug/main.o
 debug/mainwindow.o
 debug/player.o
 debug/qrc_start.o
 debug/moc_bullet.o
+debug/moc_customgraphicsview.o
 debug/moc_enemy.o
 debug/moc_mainwindow.o
 debug/moc_player.o

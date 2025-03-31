@@ -12,6 +12,7 @@
 #include <QTimer>
 #include <vector>
 #include <QGraphicsSceneMouseEvent>
+#include "customgraphicsview.h"
 
 std::vector<enemy*> enemies;
 
@@ -20,6 +21,7 @@ class Scene : public QGraphicsScene
 public:
     Scene(Player *player) : player(player)
     {
+        setSceneRect(0, 0, settings::startscenew, settings::startsceneh);
         //初始化敌人生成定时器
         spawnTimer = new QTimer(this);
         spawnTimer->setInterval(settings::enemyspawninterval);
@@ -43,7 +45,8 @@ protected:
     void keyPressEvent(QKeyEvent *event) override
     {
         if (event->key() == Qt::Key_F)
-            player->playerattack();
+            if(!enemies.empty())
+                player->playerattack();
     }
 private:
     Player *player;
@@ -56,12 +59,12 @@ int main(int argc, char *argv[])
     a.setApplicationDisplayName("Roguelike");
     QApplication::setWindowIcon(QIcon(":/images/build/map.png"));
 
-    QGraphicsView view;
+    CustomGraphicsView view;
     view.setFixedSize(settings::startsceneh, settings::startscenew);
-    view.setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-    view.setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
     view.setMouseTracking(true);
     view.show();
+
+    view.resetTransform();
 
     QGraphicsScene *startScene = new QGraphicsScene();
     startScene->setSceneRect(0, 0, settings::startsceneh, settings::startscenew);
@@ -114,6 +117,7 @@ int main(int argc, char *argv[])
         gameScene->installEventFilter(gameScene);
 
         view.setScene(gameScene);
+        view.setPlayer(player1);
     });
 
     return a.exec();

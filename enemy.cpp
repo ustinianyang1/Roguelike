@@ -174,6 +174,12 @@ void enemy::enemyattack()
 
 void enemy::enemywalk()
 {
+    if (enemywalkTimer)
+    {
+        enemywalkTimer->stop();
+        enemywalkTimer->deleteLater();
+        enemywalkTimer = nullptr;
+    }
     if(enemystillTimer)
     {
         enemystillTimer->stop();
@@ -223,11 +229,13 @@ void enemy::enemymove()
             {
                 enemywalkTimer->stop();
                 enemywalkTimer->deleteLater();
+                enemywalkTimer = nullptr;
             }
-            enemywalkTimer->stop();
-            enemywalkTimer->deleteLater();
             this->enemyattack();
+            return;
         }
+        if(dis < epsilon)
+            return;
         qreal targetX = this->pos().x() + v * dx / dis;
         qreal targetY = this->pos().y() + v * dy / dis;
         if (targetX < 0)
@@ -238,8 +246,8 @@ void enemy::enemymove()
             targetY = 0;
         if (targetY > settings::startsceneh - boundingRect().height() * settings::enemyscale)
             targetY = settings::startsceneh - boundingRect().height() * settings::enemyscale;
-        //qDebug() << "dx:" << dx << " dy:" << dy << "t:" << t << " v:" << v << Qt::endl;
-        //qDebug() << "Current pos:" << this->pos() << " Target pos:" << targetX << targetY;
+        qDebug() << "dx:" << dx << " dy:" << dy << "t:" << t << " v:" << v;
+        qDebug() << "Current pos:" << this->pos() << " Target pos:" << targetX << targetY << Qt::endl;
         setPos(targetX, targetY);
     }
 }
@@ -248,12 +256,11 @@ void enemy::enemystill()
 {
     enemymoveTimer.invalidate();
     enemystillTimer = new QTimer(this);
+    enemystillTimer->setSingleShot(true);
     enemystillTimer->start(200);
     connect(enemystillTimer, &QTimer::timeout, [this]()
     {
         this->enemywalk();
-        enemystillTimer->stop();
-        enemystillTimer->deleteLater();
     });
 }
 

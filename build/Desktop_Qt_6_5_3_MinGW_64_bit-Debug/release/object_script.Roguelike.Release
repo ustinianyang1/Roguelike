@@ -1,10 +1,12 @@
 release/bullet.o
+release/customgraphicsview.o
 release/enemy.o
 release/main.o
 release/mainwindow.o
 release/player.o
 release/qrc_start.o
 release/moc_bullet.o
+release/moc_customgraphicsview.o
 release/moc_enemy.o
 release/moc_mainwindow.o
 release/moc_player.o

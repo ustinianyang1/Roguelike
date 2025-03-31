@@ -225,8 +225,11 @@ void Player::playerattack()
             playerattackTimer->stop();
             playerattackTimer->deleteLater();
             playerattackTimer = nullptr;
-            Bullet* bullet = new Bullet(scene(), this);
-            bullet->bulletlockenemy();
+            if(this->scene())
+            {
+                Bullet* bullet = new Bullet(this->scene(), this);
+                bullet->bulletlockenemy();
+            }
         }
         else
         {
